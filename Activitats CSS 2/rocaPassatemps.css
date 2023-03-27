@@ -1,0 +1,36 @@
+body {
+    background-image: url("passatemps.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+h1 {
+    border-style: dotted dashed groove ridge;
+    border-width: 4px 7px 10px 6px;
+    border-color: pink red lime lightblue;
+}
+
+.a1 {
+    background-color: red;
+    margin: 10%;
+    padding: 1%;
+}
+.a2 {
+    background-color: lightblue;
+    margin: 10%;
+    padding: 1%;
+}
+.a3 {
+    background-color: lightcoral;
+    margin: 10%;
+    padding: 1%;
+}
+.a4 {
+    background-color: violet;
+    margin: 10%;
+    padding: 1%;
+}
+.a5 {
+    background-color: pink;
+    margin: 10%;
+    padding: 1%;
+}

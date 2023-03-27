@@ -1,0 +1,99 @@
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h1 {
+    color: #4f89b9;
+    margin: 0;
+}
+
+/*CSS per al text dintre de les caselles*/
+
+/*Text pel nom de l'activitat*/
+.activitats {
+    color: #333333;
+    text-align: center;
+    margin: 0;
+}
+
+/*Text per la descripció de l'activitat*/
+.descripcio {
+    color: #555555;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*Text pel nom de l'activitat*/
+.activitats2 {
+    color: #333333;
+    text-align: left;
+    margin: 0;
+    font-size: large;
+}
+
+/*Text per la descripció de l'activitat*/
+.descripcio2 {
+    color: #555555;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+/*Estil del botó i text "juega"*/
+.boto {
+    border-style: solid;
+    border-color: #4f89bb;
+    border-radius: 4px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    height: 25px;
+    width: 70px;
+}
+
+/*taula lexi reto*/
+.lexireto {
+    border-left-style: solid;
+    border-collapse: separate;
+    border-width: 2px;
+    word-wrap: break-word;
+    width: 290px;
+    height: 340px;
+    border-left-color: #f1f1f1;
+    border-spacing: solid;
+
+}
+
+/*Color fons taula lexireto*/
+.tdlexireto {
+    background-color: #f1f1f1;
+}
+
+
+.historia {
+    border-left-style: solid;
+    border-collapse: separate;
+    border-width: 2px;
+    word-wrap: break-word;
+    width: 290px;
+    height: 160px;
+    border-left-color: #f1f1f1;
+    border-spacing: solid;
+    text-align: left;
+}
+.tdhistoria {
+    background-color: #f1f1f1;
+
+}
+
+.imatgepetita {
+    background-color: #f1f1f1;
+
+}

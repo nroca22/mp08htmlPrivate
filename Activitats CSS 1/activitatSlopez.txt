@@ -1,0 +1,10 @@
+Color de vestit de Super Lopez: rgb(75, 133, 158)
+Color de capa de Super Lopez: rgb(169, 84, 65)
+Color de la lletra S de Super Lopez: rgb(196, 165, 77)
+Color de les lletres de títol. 
+Super: rgb(194, 182, 76)
+L: rgb(175, 78, 107)
+O: rgb(171, 80, 61)
+P: rgb(167, 83, 107)
+E: rgb(100, 102, 133)
+Z: rgb(171, 82, 108)

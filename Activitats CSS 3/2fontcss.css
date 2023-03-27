@@ -1,0 +1,42 @@
+.text1 {
+    text-align: right;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    font-family: serif;
+}
+
+.text2 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: darkolivegreen;
+    font-family: sans-serif;
+}
+
+.text3 {
+    text-decoration: overline underline;
+    text-decoration-color: khaki;
+    text-decoration-thickness: 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+.text4 {
+    font-size: 40px;
+    text-shadow: 0 0 5px indigo, 0 0 10px lightseagreen;
+    color: navy;
+    font-family: cursive;
+}
+
+.text5{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    size: 20px;
+    border-style: solid;
+    border-color: lightsteelblue;
+    border-width: 1px;
+    padding: 10px;
+    font-family: fantasy;
+}

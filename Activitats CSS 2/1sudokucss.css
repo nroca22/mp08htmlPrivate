@@ -1,0 +1,41 @@
+table, td, tr{
+    border-style: solid;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-family: arial;
+}
+
+td{
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+
+tr {
+    border-style: solid;
+    border: 2px solid;
+    border-color: #86a7c9;;
+    
+}
+
+
+.taronja{
+    background-color: #f7bc48;
+    color: #466c9a;
+}
+
+.bclar{
+    background-color: #d4e5f7;
+    color: #466c9a;
+}
+
+.bfosc{
+    background-color: #cbe5ff;
+    color: #466c9a;
+}
+
+.blanc{
+    color: #466c9a;
+}
