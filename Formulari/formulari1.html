@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulari1css.css">
+    <link rel="icon" href="">
+    <title>Document</title>
+</head>
+<body>
+    <h1>General Admission Registration</h1>
+<form>
+    <table>
+        <tr>
+            <td>
+                <!--Inici Nom-->
+                <label for="nom">Name</label>
+                <input type="text" id="nom" name="nom" size="15" placeholder="Nicola">
+                <input type="text" id="apellit" name="apellit" size="15" placeholder="Roca">
+                <!--Fi Nom-->
+
+                    <br><br>
+
+                <!--Inici Email-->
+                <label for="mail">Email</label>
+                <input type="mail" size="30" id="mail" name="mail" placeholder="nroca@iesebre.cat">
+                <!--Fi Email-->
+                    
+                    <br><br>
+
+                <!--Inici Gender-->
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <!--Fi Gender-->
+
+                    <br><br>
+
+                <!--Inici Phone-->
+                <label for="telf">Phone</label>
+                <input type="tel" maxlength="9" id="telf" name="telf" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" required placeholder="1234567890">
+                <!--Fi Phone-->
+
+                    <br><br>
+
+                <!--Inici Emergencia-->
+                <label for="emerg">Emergency Contact</label>
+                <input type="tel" maxlength="9" id="emerg" name="emerg" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" required placeholder="1234567890">
+                <!--Fi Emergencia-->
+
+                    <br><br>
+
+                <!--Inici Parking-->
+                <label for="parking">Do you require parking?</label><br>
+
+                <input type="radio" id="yes" name="parking" value="male">
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="parking" value="female">
+                <label for="no">No</label>
+                <!--Fi Parking-->
+
+                    <br><br>
+
+                <!--Inici room-->
+                <label for="room">Do you require parking?</label><br>
+
+                <input type="radio" id="single" name="room" value="single">
+                <label for="single">Single Room</label><br>
+                
+                <input type="radio" id="shared" name="room" value="shared">
+                <label for="shared">Shared Room</label><br>
+
+                <input type="radio" id="noroom" name="room" value="noroom">
+                <label for="noroom">No Room Needed</label>
+                <!--Fi room-->
+            </td>
+ 
+            <td>
+                <!--Inici allergy-->
+                <label for="diet">Do you have dietary restrictions?</label><br>
+
+                <input type="radio" id="none" name="diet" value="none">
+                <label for="none">None</label><br>
+                
+                <input type="radio" id="vege" name="diet" value="vege">
+                <label for="vege">Vegetarian</label><br>
+
+                <input type="radio" id="gluten" name="diet" value="vegglutene">
+                <label for="gluten">Gluten Allergy</label><br>
+
+                <input type="radio" id="lactose" name="diet" value="lactose">
+                <label for="lactose">Lactose Allergy</label><br>
+
+                <input type="radio" id="nut" name="diet" value="nut">
+                <label for="nut">Nut Allergy</label><br>
+
+                <input type="radio" id="shell" name="diet" value="shell">
+                <label for="shell">Shellfish Allergy</label><br>
+                <!--Fi allergy-->
+<br><br>
+                <!--Inici diet-->
+                <label for="diet">What activities will you attend?</label><br>
+
+                <input type="radio" id="dinner" name="activities" value="dinner">
+                <label for="dinner">Awards Gala Dinner</label><br>
+                                
+                <input type="radio" id="luncheon" name="activities" value="luncheon">
+                <label for="luncheon">Luncheon</label><br>
+                
+                <input type="radio" id="gluten" name="activities" value="vegglutene">
+                <label for="gluten">Gluten Allergy</label><br>
+                <!--Fi activities-->
+<br><br>
+                <!--Inici event app-->
+                <label for="eventapp">Do you want to see the list of other attendees and their profiles on the offical event app?</label><br>
+
+                <input type="radio" id="yesapp" name="eventapp" value="yesapp">
+                <label for="yesapp">Yes</label><br>
+                                                
+                <input type="radio" id="luncheon" name="noapp" value="noapp">
+                <label for="noapp">No</label><br>      
+                <!--Fi event app-->
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
