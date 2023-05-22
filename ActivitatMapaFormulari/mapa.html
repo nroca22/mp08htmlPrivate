@@ -11,11 +11,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Mapa La Cellera de Ter</title>
-   <style>
-      * {
-        border-style: dotted;
-        border-color: red;
-      }
+ 
     </style>
 </head>
 <body>
@@ -88,67 +84,78 @@
       <iframe src="https://www.google.com/maps/d/embed?mid=1i50rLEh1rH8V3NMQUa0m-btGXEqHV8M&ehbc=2E312F" width="640" height="480"></iframe>
     </td>
     <td>
-      <iframe src="https://www.google.com/maps/d/embed?mid=1i50rLEh1rH8V3NMQUa0m-btGXEqHV8M&ehbc=2E312F" width="640" height="480"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1STFCGYJqGR3Gzp7kcHZk_uGgV_BCpPU&ehbc=2E312F" width="640" height="480"></iframe>
+    </td>
+  </tr>
+</table><br><br>
+<table style="margin:0 auto;">
+  <tr><td><h1>Formulari d'Inscripció</h1></td></tr>
+  <tr>
+    <td>
+      <form>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" size="15" placeholder="Joan">
+      
+        <label for="cognom">Cognom</label>
+        <input type="text" id="cognom" name="cognom" size="15" placeholder="Martínez"><br>
+      
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" maxlength="10">
+      
+        <label for="tel">Telèfon:</label>
+        <input type="tel" id="tel"><br>
+      
+        <label for="mail">Correu Electronic:</label>
+        <input type="mail" id="mail"><br>
+      
+        <label for="naix">Data de naixement:</label>
+        <input type="date" id="naix">
+      
+        <label for="cp">Codi Postal:</label>
+        <input type="number" id="cp" maxlength="5" size="5">
+      
+        <label for="adreca">Adreça:</label>
+        <input type="text" id="adreca"><br>
+      
+        <label for="Genre">Genre:</label>
+        <input type="radio" id="home" name="Genre" value="home">
+        <label for="home">Home</label>
+        <input type="radio" id="dona" name="Genre" value="dona">
+        <label for="dona">Dona</label><br>
+        <input type="radio" id="nodir" name="Genre" value="nodir">
+        <label for="nodir">Prefereixo no dir-ho</label><br>
+      
+        <label for="cor">Tens alguna malaltia del cor?:</label>
+        <input type="radio" id="si" name="cor" value="si">
+        <label for="si">Si</label>
+        <input type="radio" id="no" name="cor" value="no">
+        <label for="no">No</label><br>
+      
+        <label for="alergia">Tens alguna alergia?:</label>
+        <input type="radio" id="sialergia" name="alergia" value="sialergia">
+        <label for="sialergia">Si</label>
+        <input type="radio" id="noalergia" name="alergia" value="noalergia">
+        <label for="noalergia">No</label><br>
+      
+        <label for="alergiasub">Si la resposta és si, indica quines són:</label>
+        <input type="text" id="alergiasub"><br>
+      
+        <label for="marxa">A quina marxa t'apuntes?:</label>
+        <input type="radio" id="marxa1" name="marxa" value="marxa1">
+        <label for="marxa1">Marxa 1 (curta)</label>
+        <input type="radio" id="marxa2" name="alergia" value="marxa2">
+        <label for="marxa2">Marxa 2 (llarga)</label><br>
+      
+        <label for="rating">Rate from 0 to 10:</label>
+        <input type="range" class="slider" id="rating" name="rating" min="0" max="10" step="1">
+      </form>
     </td>
   </tr>
 </table>
-<form>
-  <label for="nom">Nom</label>
-  <input type="text" id="nom" name="nom" size="15" placeholder="Joan">
+<div class="p-4 shadow-4 rounded-3">
+  
+</div>
 
-  <label for="cognom">Cognom</label>
-  <input type="text" id="cognom" name="cognom" size="15" placeholder="Martínez"><br>
-
-  <label for="dni">DNI:</label>
-  <input type="text" id="dni" maxlength="10">
-
-  <label for="tel">Telèfon:</label>
-  <input type="tel" id="tel"><br>
-
-  <label for="mail">Correu Electronic:</label>
-  <input type="mail" id="mail"><br>
-
-  <label for="naix">Data de naixement:</label>
-  <input type="date" id="naix">
-
-  <label for="cp">Codi Postal:</label>
-  <input type="number" id="cp" maxlength="5" size="5">
-
-  <label for="adreca">Adreça:</label>
-  <input type="text" id="adreca"><br>
-
-  <label for="Genre">Genre:</label>
-  <input type="radio" id="home" name="Genre" value="home">
-  <label for="home">Home</label>
-  <input type="radio" id="dona" name="Genre" value="dona">
-  <label for="dona">Dona</label><br>
-  <input type="radio" id="nodir" name="Genre" value="nodir">
-  <label for="nodir">Prefereixo no dir-ho</label><br>
-
-  <label for="cor">Tens alguna malaltia del cor?:</label>
-  <input type="radio" id="si" name="cor" value="si">
-  <label for="si">Si</label>
-  <input type="radio" id="no" name="cor" value="no">
-  <label for="no">No</label><br>
-
-  <label for="alergia">Tens alguna alergia?:</label>
-  <input type="radio" id="sialergia" name="alergia" value="sialergia">
-  <label for="sialergia">Si</label>
-  <input type="radio" id="noalergia" name="alergia" value="noalergia">
-  <label for="noalergia">No</label><br>
-
-  <label for="alergiasub">Si la resposta és si, indica quines són:</label>
-  <input type="text" id="alergiasub"><br>
-
-  <label for="marxa">A quina marxa t'apuntes?:</label>
-  <input type="radio" id="marxa1" name="marxa" value="marxa1">
-  <label for="marxa1">Marxa 1 (curta)</label>
-  <input type="radio" id="marxa2" name="alergia" value="marxa2">
-  <label for="marxa2">Marxa 2 (llarga)</label><br>
-
-  <label for="rating">Rate from 0 to 10:</label>
-  <input type="range" class="slider" id="rating" name="rating" min="0" max="10" step="1">
-</form>
 
 </body>
 
